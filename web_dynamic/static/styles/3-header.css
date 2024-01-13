@@ -2,10 +2,29 @@ header {
     background: white;
     height: 70px;
     width: 100%;
+    display: grid;
+    grid-auto-flow: column;
     border-bottom: 1px solid #CCCCCC;
 }
+
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+
+#api_status{
+    text-align: right;
+    margin-right: 30px;
+    margin-left: auto;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    background-color: #cccccc;
+}
+
+.available {
+    background-color:  #ff545f;
 }
